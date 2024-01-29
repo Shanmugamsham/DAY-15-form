@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</Form></title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="form">
+<h1>FORM</h1>
+<div class="box">
+<form>
+    <label for="fname">First Name</label><br/>
+    <input type="text" id="fname" name="Firstname" placeholder="Enter your First name..."><br/>
+   
+   
+    <label for="lname">Last Name</label><br/>
+    <input type="text" id="lname" name="Lastname" placeholder="Enter your last name..."><br/>
+    
+    <label for="Adre">Address</label><br/>
+    <input type="text" id="Adre" name="Adre" placeholder="Enter your Address..."><br/>
+    
+    <label for="pin">Pincode</label><br/>
+    <input type="number" id="pin" name="pin" placeholder="Enter your pincode..."><br/>
+
+    
+    <label for="State">State</label><br/>
+    <input type="text" id="State" name="State" placeholder="Enter your State..."><br/>
+
+    <label for="country">Country</label><br/>
+    <input type="text" id="Country" name="Country" placeholder="Enter your country..."><br/>
+    <button class="btn" type="button" onclick="Result()">Submit</button><br/>
+    <button id="clean" type="button" onclick="Clear()" > Clear</button>
+
+</form>    
+</div>
+<table id="show">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Pincode</th>
+        <th>State</th>
+        <th>Country</th>
+    </tr>
+   
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+   
+</div>
+<script src="script.js"></script>   
+</body>
+</html>

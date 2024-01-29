@@ -1,0 +1,74 @@
+ .form{
+    background-color: rgb(9, 227, 247);
+    background-size:cover;
+   
+   
+    
+  
+} 
+
+form{
+    background-color:rgb(233, 242, 243);
+    height:600PX;
+    width:600PX;    
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    font-size:20px;
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:50px;
+    
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+    color:rgb(233, 242, 243);
+    text-align:center;
+    padding: 25px;
+ 
+}
+.box{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.btn{
+    height:100px;
+    width:100px;
+    color:rgb(251, 165, 5);
+    background-color: azure;
+    font-size:15px;
+}
+
+#clean{
+    height:100px;
+    width:100px;
+    color:rgb(251, 165, 5);
+    background-color: azure;
+    font-size:15px;
+    
+}
+
+table th{
+     border: 2px solid black;
+     margin-top:15px;
+    
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+    margin-top:15px;
+    font-size:20px;
+    background-color:rgb(233, 242, 243);
+    margin-bottom:30px;
+}
+
+
+table td{
+    border: 2px solid black;
+    margin-top:15px;
+   
+}
